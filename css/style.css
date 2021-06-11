@@ -41,6 +41,7 @@ header::before{
     background-image: linear-gradient(60deg,rgb(2, 0, 17) 0px, rgb(7, 0, 75) 80%, rgb(11, 0, 115) 100%);
     border-bottom: 2px solid rgba(0, 131, 136, 0.3);
     box-shadow: rgb(0 0 0 / 50%) 5px 5px 10px 0px;
+    transition: ease-in-out 0.5s;
 }
 
 .logo{
@@ -209,6 +210,7 @@ h2{
     border-top:2px solid rgba(0,131,136,.3);
     border-bottom: 3px solid rgba(0,131,136,.3);
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .5);
+    transition: ease-in-out 0.5s;
 }
 
 /* PROGRAMAS */
