@@ -655,7 +655,14 @@ h5{
 /* Breackpoint */
 
 
-@media screen and  (max-width:800px) {
+@media screen and (max-height:800px) {
+    #featured-video.is-sticky {
+        transform: translateY(0);
+        max-width: 244.95px;
+        max-height: 138px;
+    }
+}
+@media screen and  (max-width:800px){
     .contenedor{
         justify-content: center;
     }
