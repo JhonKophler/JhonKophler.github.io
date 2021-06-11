@@ -1,4 +1,4 @@
-let ubicacionPrincipal = window.pageYOffset;
+/*et ubicacionPrincipal = window.pageYOffset;
 
 window.addEventListener("scroll", function() {
    let desplazamientoActual = window.pageYOffset;
@@ -20,6 +20,14 @@ window.addEventListener("scroll", function() {
       document.getElementsByClassName("txt-header")[0].style.top = "-100px"
    }
    ubicacionPrincipal2 = desplazamientoActual;
+})
+*/
+
+let enlacesHeader = document.querySelectorAll(".menu")[0];
+let semaforo = true;
+
+document.querySelectorAll(".hamburger")[0].addEventListener("click",function(){
+   enlacesHeader.classList.toggle("menu2")
 })
 
 
