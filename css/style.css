@@ -443,9 +443,60 @@ h4{
 
 .talento-emergente h3{
     font-family: 'Creepster', cursive;
-    font-size: 100px;
+    font-size: 10rem;
     padding: 5%;
     animation: letra-talento .5s infinite alternate-reverse;
+    text-transform: uppercase;
+    text-shadow: 
+        0.05em 0 0 rgba(255, 0,0, 0.75),
+        -0.025em -.05em 0 rgba(0, 255,0, 0.75),
+        0.025em 0.05em 0 rgba(0, 0,255, 0.75);
+    animation: glitch 000ms infinite ;
+}
+
+@keyframes glitch {
+    0%{
+        text-shadow: 
+        0.05em 0 0 rgba(255, 0,0, 0.75),
+        -0.05em -0.025em 0 rgba(0, 255,0, 0.75),
+        -0.025em 0.05em 0 rgba(0, 0,255, 0.75);
+    }
+    14%{
+        text-shadow: 
+        0.05em -0.025em 0 rgba(255, 0,0, 0.75),
+        0.025em 0.025em 0 rgba(0, 255,0, 0.75),
+        -0.05em -0.05em 0 rgba(0, 0,255, 0.75);
+    }
+    15%{
+        text-shadow: 
+        0.05em -0.025em 0 rgba(255, 0,0, 0.75),
+        0.025em 0.025em 0 rgba(0, 255,0, 0.75),
+        -0.05em -0.05em 0 rgba(0, 0,255, 0.75);
+    }
+    49%{
+        text-shadow: 
+        0.025em 0.05rem 0 rgba(255, 0,0, 0.75),
+        0.05em 0em 0 rgba(0, 255,0, 0.75),
+        0em -0.05em 0 rgba(0, 0,255, 0.75);
+    }
+    50%{
+        text-shadow: 
+        0.025em 0.05rem 0 rgba(255, 0,0, 0.75),
+        0.05em 0em 0 rgba(0, 255,0, 0.75),
+        0em -0.05em 0 rgba(0, 0,255, 0.75);
+    }
+    99%{
+        text-shadow: 
+        0.025em 0.05rem 0 rgba(255, 0,0, 0.75),
+        0.05em 0em 0 rgba(0, 255,0, 0.75),
+        0em -0.05em 0 rgba(0, 0,255, 0.75);
+    }
+    100%{
+        text-shadow: 
+        -0.025em 0 0 rgba(255, 0,0, 0.75),
+        -0.025em -0.025em 0 rgba(0, 255,0, 0.75),
+        -0.025em -0.05em 0 rgba(0, 0,255, 0.75);
+    }
 }
 
 @keyframes letra-talento {
@@ -739,7 +790,8 @@ h5{
         padding: 20px;
         text-align: center;
     }
-    
+
+
     .pie{
     width: 75%;
     display: flex;
@@ -776,10 +828,6 @@ h5{
         height: 25%;
     }
 
-    .contenido-semana .titulo h3{
-        font-size:55px;
-    }
-
     .nav .logo{
         display: flex;
         height: 80px;
@@ -793,7 +841,7 @@ h5{
     }
 
     .talento-emergente h3{
-        font-size: 50px;
+        font-size: 5rem;
 
     }
 
