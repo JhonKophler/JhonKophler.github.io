@@ -440,6 +440,7 @@ h4{
 
 /* TALENTO EMERGENTE*/
 
+
 .talento-emergente h3{
     padding: 3%;
     animation: letra-talento 30s infinite alternate-reverse;
@@ -455,10 +456,9 @@ h4{
     width: 100%;
     text-align: center;
     padding-bottom: 5%;
-    animation-name: rainbow-talento;
-    animation-duration: 30s;
-    animation-direction:alternate-reverse;
-    animation-iteration-count: infinite;
+    background: url("img/wall.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .texto{
@@ -477,7 +477,6 @@ h4{
 }
 
 @keyframes rainbow-talento{
-    
     0%{
         background-color:#53cdd6;
     }
@@ -662,6 +661,7 @@ h5{
         transform: translateY(0);
         max-width: 244.95px;
         max-height: 138px;
+        bottom: 60px;
     }
 }
 
@@ -719,6 +719,7 @@ h5{
         transform: translateY(0);
         max-width: 244.95px;
         max-height: 138px;
+        bottom: 50px;
     }
 
     .content-media{
@@ -738,10 +739,14 @@ h5{
     }
     
     .pie{
-    width: 50%;
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    }
+
+    footer .line p{
+        font-size: 12px;
     }
 }
 
@@ -802,6 +807,11 @@ h5{
         bottom: 30%;
         z-index: 0;
     }
+
+    .pie{
+        font-size: 15px;
+    }
+
 }
 
 
