@@ -86,3 +86,8 @@ jQuery(function ($) {
 
 
 });
+
+
+
+/* ANIMACION DE TALENTO */
+
