@@ -445,13 +445,13 @@ h4{
     font-family: 'Creepster', cursive;
     font-size: 10rem;
     padding: 5%;
-    animation: letra-talento .5s infinite alternate-reverse;
     text-transform: uppercase;
     text-shadow: 
         0.05em 0 0 rgba(255, 0,0, 0.75),
         -0.025em -.05em 0 rgba(0, 255,0, 0.75),
         0.025em 0.05em 0 rgba(0, 0,255, 0.75);
-    animation: glitch 000ms infinite ;
+     ;
+    animation: glitch .5s infinite alternate-reverse;
 }
 
 @keyframes glitch {
@@ -496,16 +496,15 @@ h4{
         -0.025em 0 0 rgba(255, 0,0, 0.75),
         -0.025em -0.025em 0 rgba(0, 255,0, 0.75),
         -0.025em -0.05em 0 rgba(0, 0,255, 0.75);
+        
     }
-}
-
-@keyframes letra-talento {
     0%{color:#fbff00;}
     25%{color:#00ff2a ;}
     50%{color:#07eeff ;}
     75%{color:#ff004c ;}
     100%{color: #ea00ff;}
 }
+
 
 .talento-emergente{
     width: 100%;
