@@ -442,14 +442,18 @@ h4{
 
 
 .talento-emergente h3{
+    font-family: 'Creepster', cursive;
+    font-size: 100px;
     padding: 5%;
-    animation: letra-talento 30s infinite alternate-reverse;
+    animation: letra-talento .5s infinite alternate-reverse;
 }
 
 @keyframes letra-talento {
-    0%{color:#f5dd00;}
-    35%{color:#00ff2a ;}
-    100%{color: #ffa600;}
+    0%{color:#fbff00;}
+    25%{color:#00ff2a ;}
+    50%{color:#07eeff ;}
+    75%{color:#ff004c ;}
+    100%{color: #ea00ff;}
 }
 
 .talento-emergente{
@@ -786,6 +790,11 @@ h5{
     .nav .logo h1{
         margin-top: 0;
         height: 25%;
+    }
+
+    .talento-emergente h3{
+        font-size: 50px;
+
     }
 
 
