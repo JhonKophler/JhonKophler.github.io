@@ -57,7 +57,7 @@ header::before{
 .menu > ul{
     display: flex;
     padding-top: 30px;
-    justify-content: flex-end;   
+    justify-content: flex-end; 
 }
 
 .menu ul li{
@@ -156,7 +156,9 @@ li li {
 }
 
 #featured-video {
-    transition: width .2s ease-in-out, height .2s ease-in-out, transform 1s ease-in-out;
+    transition: width .2s ease-in-out, 
+    height .2s ease-in-out, 
+    transform 1s ease-in-out;
 }
 /** Use .sticky */
 #featured-video.is-sticky { 
@@ -680,12 +682,8 @@ h5{
         justify-content: space-evenly;
     }
 
-    .contenedor{
-        transition:ease-in-out 5s;
-    }
-
-    .menu2{
-        clip-path: circle(0 at 100% 0);        
+    .contenedor .menu2{
+        clip-path: circle(0 at 100% );        
     }
 
     .menu > ul{
