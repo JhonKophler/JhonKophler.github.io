@@ -1,22 +1,4 @@
 
-let enlacesHeader = document.querySelectorAll(".menu")[0];
-let semaforo = true;
-
-document.querySelectorAll(".hamburger")[0].addEventListener("click",function(){
-   if(semaforo){
-      document.querySelectorAll(".hamburger>i")[0].style.color="rgb(252,151,0)";
-      semaforo=false;
-   }else{
-      document.querySelectorAll(".hamburger>i")[0].style.color="#fbf7fd";
-      semaforo=true;
-   }
-   
-   
-   enlacesHeader.classList.toggle("menu2")
-})
-
-
-
 
 jQuery(function ($) {
 
@@ -88,6 +70,22 @@ jQuery(function ($) {
 });
 
 
+let enlacesHeader = document.querySelectorAll(".menu")[0];
+let semaforo = true;
 
-/* ANIMACION DE TALENTO */
+document.querySelectorAll(".hamburger")[0].addEventListener("click",function(){
+   if(semaforo){
+      document.querySelectorAll(".hamburger>i")[0].style.color="rgb(252,151,0)";
+      semaforo=false;
+   }else{
+      document.querySelectorAll(".hamburger>i")[0].style.color="#fbf7fd";
+      semaforo=true;
+   }
+   
+   
+   enlacesHeader.classList.toggle("menu2")
+})
+
+/* ANIMACION DE TALENTO EMERGENTE*/
+
 
