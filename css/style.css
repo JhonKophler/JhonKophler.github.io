@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --naranja: #ff8501 ;
 }
 
 html{
@@ -14,14 +15,14 @@ section[id]{
 span{
     font-family: 'Syncopate', sans-serif;
     font-size: 30px;
-    color: rgb(252,151,0);
+    color: var(--naranja);
     text-shadow: 1px 1px rgba(255, 255, 255, 1);
 }
 
 h1{
     font-family: 'Syncopate', sans-serif;
     font-size: 30px;
-    color: #767488;
+    color: #00bb2d;
     text-shadow: 1px 1px rgba(255, 255, 255, 1);
 }
 
@@ -110,7 +111,7 @@ li li {
 }
 
 .menu a:hover{
-    color: rgb(252,151,0);
+    color: var(--naranja);
     transition: .3s;
 }
 
@@ -125,7 +126,7 @@ li li {
 }
 
 .hamburger > i{
-    color:rgb(252,151,0);
+    color:var(--naranja);
     font-size: 25px;
     line-height: 80px;
 }
@@ -192,7 +193,7 @@ h2{
     letter-spacing: 10px;
     text-align: center;
     font-family: 'Syncopate', sans-serif;
-    color: rgb(252,151,0);
+    color: var(--naranja);
     padding: 10px;
 }
 
@@ -234,7 +235,7 @@ h2{
         background-color:#7d00c5 ;
     }
     100%{
-        background-color: rgb(216, 130, 0);
+        background-color: var(--naranja);
     }
 }
 
@@ -563,7 +564,7 @@ h4{
     cursor: pointer;
     font-size: 18px;
     color: rgb(12, 123, 167);
-    background: #ff9100;
+    background: var(--naranja)s;
     display: inline-block;
     padding: 5px;
     animation: subir 2s alternate infinite ease-in;
@@ -571,7 +572,7 @@ h4{
 
 .irArriba i:hover{
     font-size: 18spx;
-    color: #ff9100;
+    color: var(--naranja);
     background: rgb(12, 123, 167);
     display: inline-block;
     padding: 5px;
@@ -845,7 +846,6 @@ h5{
         font-size: 5rem;
 
     }
-
 
 }
 
