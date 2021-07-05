@@ -312,24 +312,22 @@
   </section>
 
   <!-- FORMULARIO Publicitate! -->
-
-  <section id="publicitate">
-
-    <form action="" method="POST">
-      <label>CONTACTANOS</label></br>
+  <div class="frm">
+    <form id="publicitate" action="" method="POST">
+      <label><h3>CONTACTANOS</h3></label></br>
       <select name="motivo">
-        <option value="1">Quiero que mi publicidad suene en la Radio!</option>
-        <option value="2">Talento Emergente</option>
+        <option value="1" selected="true" disabled="disabled">Seleccione Motivo</option>
+        <option value="2">Quiero mi publicidad en la Radio!</option>
+        <option value="3">Talento Emergente</option>
       </select></br>
-      <input type="text" name="nombre" placeholder="Nombre" ></input></br>
+      <input type="text" name="nombre" placeholder="Nombre" autocomplete="off"></input></br>
       <input type="text" name="correo" placeholder="Correo"></input></br>
       <input type="text" name="telefono" placeholder="Telefono"></input></br>
       <textarea name="mensaje"></textarea></br>
       <input type="button" value="Enviar" id="boton"></input>
     </form>
-
-  </section>
-
+  </div>
+  
   <!--Footer-->
   <div class="irArriba"><i class="fas fa-chevron-up"></i></div>
 

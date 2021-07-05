@@ -552,20 +552,46 @@ h4{
 }
 
 /* Formulario */
-
-.publicitate{
-
+.frm{
+    text-align: center;
+    background-color: rgb(134, 239, 243);
 }
 
 form{
     margin: auto;
     width: 50%;
-    background-color: #00ff2a;
+    background-color: rgba(111,75,240,0.2);
     padding: 10px 20px;
     box-sizing: border-box;
     border-radius: 15px;
 }
 
+select,input,textarea{
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 10rm;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    resize: none;
+}
+
+#boton{
+    background: var(--naranja);
+    color: rgb(235,232,255);
+    padding: 5%;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
 
 /* IR ARRIBA*/
 .irArriba{
@@ -802,6 +828,10 @@ h5{
         font-size: 18px;
         padding: 20px;
         text-align: center;
+    }
+
+    form{
+        width: 100%;
     }
 
 
