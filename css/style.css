@@ -75,7 +75,7 @@ header::before{
 }
 
 li li {
-    padding-top: 5px;
+    padding-top: 2px;
     padding-bottom: 5px;
 }
 
@@ -551,6 +551,21 @@ h4{
     }
 }
 
+/* Formulario */
+
+.publicitate{
+
+}
+
+form{
+    margin: auto;
+    width: 50%;
+    background-color: #00ff2a;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
 
 /* IR ARRIBA*/
 .irArriba{
@@ -734,11 +749,11 @@ h5{
 
     .menu{
         position: fixed;
-        background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgb(7, 0, 75), var(--naranja)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         top: 0;
         right: 0;
-        width: 100%;
-        height: 100vh;
+        width: 40%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -756,13 +771,9 @@ h5{
 
     .contenedor .menu ul li a {
         font-family: 'Comfortaa', cursive;
-        color: rgb(235,232,255);
         text-decoration: none;
-        padding: 20%;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
+        justify-content: flex-end;
     }
 
     .menu ul li:hover ul {
